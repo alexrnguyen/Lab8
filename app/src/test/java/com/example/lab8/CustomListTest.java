@@ -79,11 +79,11 @@ public class CustomListTest {
         assertEquals(0, cityList.countCities());
         City newCity = new City("Calgary", "Alberta");
         City anotherNewCity = new City("Vancouver", "British Columbia");
-        cityList.add(newCity);
-        cityList.add(anotherNewCity);
+        cityList.addCity(newCity);
+        cityList.addCity(anotherNewCity);
         assertEquals(2, cityList.countCities());
         City city = MockCity();
-        cityList.delete(city);
+        cityList.delete(newCity);
         assertEquals(1, cityList.countCities());
     }
 
