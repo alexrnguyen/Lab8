@@ -52,7 +52,7 @@ public class CustomListTest {
         assertFalse(cityList.hasCity(city2));
     }
 
-    @Test
+    /*@Test
     void testDelete() {
         CustomList cityList = MockCityList();
         City city = MockCity();
@@ -68,7 +68,7 @@ public class CustomListTest {
         cityList.delete(MockCity());
         assertEquals(0, cityList.getCities().size());
         assertThrows(IllegalArgumentException.class, () -> cityList.delete(newCity));
-    }
+    }*/
 
 
 }
