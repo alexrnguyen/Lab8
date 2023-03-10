@@ -85,5 +85,25 @@ public class CustomList extends ArrayAdapter<City> {
         return false;
     }
 
+    /**
+     * This deletes a city from the list if the city is in the list
+     * @param city
+     *      This is a candidate city to delete
+     */
+    /*public void delete(City city) {
+        boolean cityRemoved = false;
+        int i = 0;
+        while (i < cities.size()) {
+            if (cities.get(i).compareTo(city) == 0) {
+                cities.remove(0);
+                cityRemoved = true;
+            }
+            i++;
+        }
+        if (!cityRemoved) {
+            throw new IllegalArgumentException();
+        }
+    }*/
+
 
 }
