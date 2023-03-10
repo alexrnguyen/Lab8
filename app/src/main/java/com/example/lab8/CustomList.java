@@ -90,7 +90,7 @@ public class CustomList extends ArrayAdapter<City> {
      * @param city
      *      This is a candidate city to delete
      */
-    /*public void delete(City city) {
+    public void delete(City city) {
         boolean cityRemoved = false;
         int i = 0;
         while (i < cities.size()) {
@@ -103,7 +103,7 @@ public class CustomList extends ArrayAdapter<City> {
         if (!cityRemoved) {
             throw new IllegalArgumentException();
         }
-    }*/
+    }
 
 
 }
